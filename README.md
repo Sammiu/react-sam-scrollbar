@@ -2,7 +2,7 @@
 
 Handle element scroll like Mobile phone scrollViewBar
 
-##Demo
+## Demo
 
 ```
 git clone https://github.com/Sammiu/react-sam-scrollbar.git
