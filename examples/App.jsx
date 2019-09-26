@@ -28,7 +28,7 @@ function App() {
     return (
         <div className="App">
             <div className={'select-dropdown'}>
-                <ScrollBar disableHorizontal={true}>
+                <ScrollBar>
                     <ul className="select-dropdown_list">
                         {data && data.map(item => (
                             <li key={item.id}><span className="select-dropdown_item_text">{item.name}</span></li>))}
