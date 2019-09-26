@@ -4,6 +4,8 @@ Handle element scroll like Mobile phone scrollViewBar
 
 ##Demo
 
+![avatar](examples/image/example.gif)
+
 ```
 git clone https://github.com/Sammiu/react-sam-scrollbar.git
 cd react-sam-scrollbar
