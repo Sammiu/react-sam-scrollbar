@@ -2,7 +2,7 @@
 
 Handle element scroll like Mobile phone scrollViewBar
 
-##Demo
+## Demo
 
 ![avatar](examples/image/example.gif)
 
