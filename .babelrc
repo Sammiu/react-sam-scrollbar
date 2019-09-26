@@ -1,0 +1,16 @@
+{
+  "presets": [["@babel/preset-env",  {
+    "targets": {
+      "browsers": ["safari >= 7", "ie >= 9"],
+      "node": "current"
+    }
+  }], "@babel/preset-react"],
+  "plugins": [
+    ["transform-flow-strip-types"],
+    ["dynamic-import-webpack"],
+    ["@babel/plugin-transform-async-to-generator"],
+    ["@babel/plugin-proposal-decorators", { "legacy": true}],
+    ["@babel/plugin-proposal-class-properties", { "loose": true}],
+    ["import", {"libraryName": "antd", "libraryDirectory": "es"}]
+  ]
+}

@@ -1,0 +1,16 @@
+[ignore] # 忽略的不需要检查的文件
+<PROJECT_ROOT>/node_modules/.*
+# <PROJECT_ROOT> 表示根目录的绝对路径
+
+[include] # 表示待检测的路径， .flowconfig 所在目录下的所有文件都被认为是待检测的
+
+[libs] # 指定接口文件的路径
+src/interfaces/
+
+[lints]
+
+[options] # 设置配置项
+module.name_mapper='^.*\.less$' -> 'css-module-flow' # 解决flow查找样式出错
+
+[strict]
+---------------------
