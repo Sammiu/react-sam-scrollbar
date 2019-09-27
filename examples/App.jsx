@@ -27,11 +27,11 @@ function App() {
 
     return (
         <div className="App">
-            <div className={'select-dropdown'}>
+            <div className={'select-list__wrap'}>
                 <ScrollBar>
-                    <ul className="select-dropdown_list">
+                    <ul className="select-list">
                         {data && data.map(item => (
-                            <li key={item.id}><span className="select-dropdown_item_text">{item.name}</span></li>))}
+                            <li key={item.id}><span className="select-_item_text">{item.name}</span></li>))}
                     </ul>
                 </ScrollBar>
             </div>
