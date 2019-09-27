@@ -20,9 +20,7 @@ npm i react-sam-scrollbar
 yarn add react-sam-scrollbar
 ```
 
-## Examples
-
-#### 1. Render prop pattern
+## Usage
 
 ```jsx
 import ScrollBar from 'react-sam-scrollbar'
